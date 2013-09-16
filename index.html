@@ -1,22 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Ptrstudios.github.io : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-
-    <title>Ptr Studios</title>
-  </head>
-
-  <body>
-
-    <h1>
-      PTR STUDIOS
-    </h1>
-    
-
-  </body>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+    </head>
+    <body>
+        <div id="flipdiv">
+        <img src="images/logo.png">
+        <ul id="nav">
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">HTML5 CANVAS DEMOS</a>
+            </li>
+            <li>
+                <a href="#">RANDOM HTML STUFF</a>
+            </li>
+        </ul>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("button").on("click",function() {
+                    $(this).css("-webkit-transform","rotate(180deg)");
+                    alert("THE");
+                });
+            });
+        </script>
+        <button type="button">Click to rotate.</button>
+        </div>
+    </body>
 </html>
