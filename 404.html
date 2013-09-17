@@ -8,6 +8,12 @@
     text-align: center;
     color: white;
   }
+  a {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
 </style>
 <h1>
   NOOO!!!
@@ -18,5 +24,24 @@
 </h1>
 <br>
 <p>
-  The page you were looking for does not exist. Click <a href="/">here</a> to go to the home page.
+  The page you were looking for does not exist.* Click <a href="/">here</a> to go to the home page.
 </p>
+<h1>
+    You will be automatically redirected in 
+</h1>
+<h1 id="the">5</h1>
+<script>
+    var g = document.getElementById("the");
+    var a = 5;
+    setInterval(function() {
+        a--;
+        g.innerHTML = a;
+        if (a === 0) {
+            window.location = "/" ||
+            window.navigate("/");
+        }
+    },1000);
+
+</script>
+
+<p style="font-size:0.7em;">*Unless you were looking for the 404 page. Then you've found it.</p>
