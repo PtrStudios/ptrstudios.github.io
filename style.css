@@ -9,7 +9,7 @@ body {
     max-width: 1000px; 
     margin: 0 auto;
     background: linear-gradient(to bottom,white,#bcbcbc,white);
-    box-shadow: 0 0 200px white;
+    box-shadow: 0 0 20px white;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     transition: 3s;
