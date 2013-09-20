@@ -34,7 +34,7 @@ li {
     margin: auto;
 }
 
-a {
+.nav {
     text-decoration: none; 
     display: inline-block;
     color: black;
@@ -42,7 +42,7 @@ a {
     -webkit-transition: 1s;
 }
 
-a:hover {
+.nav:hover {
     text-shadow: 0 0 5px black;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 5px;
