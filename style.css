@@ -1,14 +1,14 @@
 html {
-    background: black;
+    background: linear-gradient(to bottom,black,#575757,black);
     height: 100%;    
 }
 
 body {
-    min-height: 98%;
-    max-width: 1000px; 
     margin: 0 auto;
-    background: linear-gradient(to bottom,white,#bcbcbc,white);
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 30px white;
+    max-width: 1000px;
+    background: black;
+    height: 100%;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
@@ -17,7 +17,7 @@ body {
 
 #nav {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10px;    
 }
 
 
@@ -27,56 +27,31 @@ ul {
 
 li {
     display: inline;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 10px;
     margin: auto;
+    cursor: pointer;
 }
 
 .nav {
     text-decoration: none; 
     display: inline-block;
-    color: black;
+    color: white;
     transition: 1s;
-    -webkit-transition: 1s;
-}
-
-.nav:hover {
-    text-shadow: 0 0 5px black;
-    cursor: pointer;
 }
 
 img {
     margin: auto;
     display: block;
-    transition: 3s;
+    transition: 2s;
 }
 
 img:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
 }
 
 .center {
     text-align: center;
 }
 
-.button {
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
-    margin: auto;
-    box-shadow: 10px 10px 0 #a20000;
-    position: relative;
-    transition: 0.3s;
-    font-family: adamina;
-    text-align: center;
-    
-}
-
-.button:active {
-    top: 10px;
-    box-shadow: none;
-}
