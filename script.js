@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(".hidden").show("bounce",{times: 2},1000);
+    $(".hidden").show("bounce",{times: 2},2000);
     
     $("#rotate").click(function() {
         $("body").css({"-webkit-transform":"rotate(360deg)","transition":"2s"});
