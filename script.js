@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    $(".hidden").show("bounce",{times: 3},3000);
+    
     $("#rotate").click(function() {
         $("body").css({"-webkit-transform":"rotate(360deg)","transition":"2s"});
         setTimeout(function() {
@@ -9,26 +11,26 @@ $(document).ready(function() {
     $("#about").hover(function() {
         $(this).css("color","red"); 
     },function() {
-        $(this).css("color","white");
+        $(this).css("color","black");
     });
     
     $("#demos").hover(function() {
         $(this).css("color","green");
     },function() {
-        $(this).css("color","white");
+        $(this).css("color","black");
     });
     
     $("#css").hover(function() {
         $(this).css("color","blue");
     },function() {
-        $(this).css("color","white");
+        $(this).css("color","black");
     });
     
     $("#rotate").hover(function() {
         $(this).css("color","purple");
     },function() {
-        $(this).css("color","white");
+        $(this).css("color","black");
     });
+    
 });
-
 
