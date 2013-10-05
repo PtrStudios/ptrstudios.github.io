@@ -69,16 +69,18 @@ img:hover {
 
 }
 
-.src{
+.src {
     background-color: darkblue;
     transition: 1s;
     padding: 9px;
     color: white;
     font-size: 1.1em;
     border-radius: 5px;
-    text-align: center;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
 }
 
 .src:hover{
-   background-color: darkblue;
+   background-color: rgb(0, 0, 0);
 }
