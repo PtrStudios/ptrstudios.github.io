@@ -70,13 +70,14 @@ img:hover {
 }
 
 .src{
-    background-color: blue;
+    background-color: darkblue;
     transition: 1s;
     padding: 5px;
     color: white;
     font-size: 1.1em;
+    border-radius: 10px;
 }
 
 .src:hover{
-   background-color: darkblue;
+   background-color: darkslateblue;
 }
