@@ -11,6 +11,11 @@ body {
     margin-bottom: 20px;
 }
 
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
 h1,p {
     text-align: center;
 }

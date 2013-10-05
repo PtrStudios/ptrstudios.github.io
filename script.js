@@ -31,6 +31,14 @@ $(document).ready(function() {
     },function() {
         $(this).css("color","black");
     });
+
+    var hcanvas = $("#hcanvas")[0];
+    var hctx = hcanvas.getContext("2d");
+    var grd = hctx.createLinearGradient(0, 0, hcanvas.width, 0);
+    grd.addColorStop(0, "red");
+    grd.addColorStop(1, "blue");
+    hctx.fillStyle = grd;
+    hctx.fillRect(0, 0, hcanvas.width, hcanvas.height);
     
 });
 
