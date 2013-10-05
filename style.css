@@ -1,5 +1,5 @@
 * {
-    font-family: 'Cabin', sans-serif !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -75,9 +75,9 @@ img:hover {
     padding: 5px;
     color: white;
     font-size: 1.1em;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .src:hover{
-   background-color: darkslateblue;
+   background-color: darkblue;
 }
