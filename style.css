@@ -84,3 +84,7 @@ img:hover {
 .src:hover{
    background-color: rgb(0, 0, 0);
 }
+
+.prettyprint {
+	font-family: 'Inconsolata', sans-serif !important;
+}
