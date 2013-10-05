@@ -72,10 +72,11 @@ img:hover {
 .src{
     background-color: darkblue;
     transition: 1s;
-    padding: 5px;
+    padding: 9px;
     color: white;
     font-size: 1.1em;
     border-radius: 5px;
+    text-align: center;
 }
 
 .src:hover{
