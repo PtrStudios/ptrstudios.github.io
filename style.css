@@ -6,7 +6,7 @@ html {
 body {
     margin: 0 auto;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', sans-serif !important;
     margin-top: 20px;
     margin-bottom: 20px;
 }
