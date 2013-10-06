@@ -87,6 +87,6 @@ pre,code {
 	font-family: consolas;
 	font-size: 16px !important;
 	padding: 10px !important;
-	border: none;
-	outline: none;
+	border: none !important;
+	outline: none !important;
 }
