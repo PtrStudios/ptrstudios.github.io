@@ -13,7 +13,7 @@ $(document).ready(function() {
     },function() {
         $(this).css("color","black");
     });
-    
+   
     $("#demos").hover(function() {
         $(this).css("color","green");
     },function() {
