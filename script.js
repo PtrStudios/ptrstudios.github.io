@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $(".hidden").slideDown();
     
     $("#rotate").click(function() {
         $("body").css({"-webkit-transform":"rotate(360deg)","transition":"2s"});
