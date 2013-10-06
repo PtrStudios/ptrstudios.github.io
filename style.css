@@ -76,6 +76,7 @@ img:hover {
     margin: 0 auto;
     display: block;
     text-decoration: none;
+	font-family: 'Open Sans', sans-serif;	
 }
 
 .src:hover{
