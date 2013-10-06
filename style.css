@@ -24,7 +24,7 @@ h1,p {
 #nav {
     text-align: center;
     margin-top: 10px;  
-    margin-bottom: 50px;
+    margin-bottom: 50px;f
 }
 
 hr {
@@ -85,5 +85,4 @@ img:hover {
 pre,code {
 	font-family: 'Inconsolata', sans-serif;
 	font-size: 15px !important;
-	padding: 10px;
 }
