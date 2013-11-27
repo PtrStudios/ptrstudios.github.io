@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
     <head>
-        <link href="http://ptrstudios.github.io/style.css" type="text/css" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+        <link rel="stylesheet" href="spectrum/spectrum.css" type="text/css">
 	<title>
 	    Ptr Studios
 	</title>
@@ -25,9 +26,40 @@
             </li>
             <hr>
         </ul>
+        <div class="page-wrap">
         <canvas id="hcanvas" width="500" height="500" style="background-color: black;"></canvas>
         <br>
         <button class="src"><a href="code/home.html" class="src">View Source</a></button>
         <script src="script.js"></script>
+        <script src="spectrum/spectrum.js"></script>
+        <h1>
+            Some stuff here that takes up space
+        </h1>
+        <h1>
+            Some more stuff that takes up space
+        </h1>
+            <h1>
+            STUFF STUFF STUFF
+            </h1>
+            <h1>
+                LOREM IPSUM SET DOLORES WHATEVER WHATEVER FD
+            </h1>
+            <h1>
+                FILLER FILLER FILLER
+            </h1>
+        </div>
+        <footer class="site-footer">
+            <div style="margin: 0 auto; display: block; text-align: center;">    
+            </div>
+        </footer>
+        <script>
+        $(".bg").spectrum({
+            color: "#fff",
+            change: function(color) {
+                $("html").css("background-color",color);
+            },
+            className: 'spectrum'
+        });
+        </script>
     </body>
 </html>

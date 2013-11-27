@@ -5,6 +5,7 @@ html {
 	font-family: 'Open Sans', sans-serif;	
 }
 
+
 body {
     margin: 0 auto;
     height: 100%;
@@ -66,6 +67,7 @@ img:hover {
 
 }
 
+
 .src {
     background-color: darkblue;
     transition: 1s;
@@ -89,4 +91,28 @@ pre,code {
 	padding: 10px !important;
 	border: none !important;
 	outline: none !important;
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+	margin-bottom: -130px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+	height: 130px; 
+}
+
+.site-footer {
+    border-top: 1px solid black;
 }
